@@ -55,3 +55,21 @@ background-image: linear-gradient(to top right, #ff5263e6, #ff7381e6, #fcbd01e6)
     margin-top: 35px;
     font-family: "Segoe UI";
 }
+.form-input{
+    margin-top: 23px;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    font-weight: 500;
+    color: #6f7782;
+    margin-left: 70px;
+}
+#email-input{
+    background-color: #fff;
+    border: 1px solid #cbd4db;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    width: 85%;
+    margin-top: 10px;
+    /*margin-left: 70px;*/
+}
