@@ -47,8 +47,28 @@ background-image: linear-gradient(to top right, #ff5263e6, #ff7381e6, #fcbd01e6)
 }
 .box button:hover{
     opacity: 0.6;
-    background-color: blue;
+    background-color: #4834d4;
 }
+.vertical{
+   border: 1px solid #e8ecee;
+   top: 42%;
+   width: 180px;
+   height: 0px;
+   position: absolute;
+   margin-left: 75px;
+   margin-top: 30px;
+}
+.vertical2{
+    border: 1px solid #e8ecee;
+    margin: -14px 60px 0px 300px;
+    width: 180px;
+    height: 0px;
+    position: absolute;
+    margin-right: 75px;
+ }
+ .fixline{
+     margin-top: 30px;
+ }
 .box span{
     color: #cbd4db;
     font-size: 24px;
@@ -71,5 +91,49 @@ background-image: linear-gradient(to top right, #ff5263e6, #ff7381e6, #fcbd01e6)
     padding: 0 0 0 10px;
     width: 85%;
     margin-top: 10px;
-    /*margin-left: 70px;*/
+}
+.form-input p{
+   text-decoration: dotted underline;
+   font-size: 11px;
+   font-weight: initial;
+}
+.login button{
+   float: right;
+   color: #122b42;
+   font-size: 14px;
+   padding: 15px;
+   background-color: #f6f8f9;
+   border-radius: 6px;
+   outline: none;
+   cursor: pointer;
+   border: aqua;
+   margin-right: 80px;
+}
+.footer p{
+   text-align: center;
+   color: white;
+   font-family: 'Segoe UI';
+   font-size: 14px;
+   font-weight: 400;
+}
+.footer a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+}
+.footer ul li{
+    display: inline;
+    list-style: none;
+    color: white;
+    font-family: 'segoe UI';
+    font-size: 14px;
+    padding: 5px;
+}
+.fix{
+    text-align: center;
+    margin-top: -15px;
+    margin-left: -50px;
 }
